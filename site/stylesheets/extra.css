@@ -1,0 +1,138 @@
+/* Arthur SDK Docs - Custom Styling */
+
+:root {
+  /* Arthur brand purple (matching arthurdex.com) */
+  --md-primary-fg-color: #8B5CF6;
+  --md-primary-fg-color--light: #A78BFA;
+  --md-primary-fg-color--dark: #7C3AED;
+  --md-accent-fg-color: #8B5CF6;
+}
+
+/* Dark mode tweaks */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #8B5CF6;
+  --md-accent-fg-color: #A78BFA;
+  --md-default-bg-color: #0d0b1e;
+  --md-default-bg-color--light: #1a1825;
+}
+
+/* Hero section on homepage */
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero pre {
+  display: inline-block;
+  text-align: left;
+  margin: 1.5rem 0;
+}
+
+/* Code blocks */
+.md-typeset code {
+  background-color: rgba(139, 92, 246, 0.1);
+  border-radius: 4px;
+  padding: 0.1em 0.3em;
+}
+
+[data-md-color-scheme="slate"] .md-typeset code {
+  background-color: rgba(139, 92, 246, 0.15);
+}
+
+/* Primary button styling */
+.md-typeset .md-button--primary {
+  background-color: #8B5CF6;
+  border-color: #8B5CF6;
+}
+
+.md-typeset .md-button--primary:hover {
+  background-color: #7C3AED;
+  border-color: #7C3AED;
+}
+
+/* Footer CTA */
+.footer-cta {
+  text-align: center;
+  padding: 2rem;
+  margin-top: 3rem;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.1) 0%, rgba(139, 92, 246, 0.05) 100%);
+  border-radius: 8px;
+}
+
+/* Tables */
+.md-typeset table:not([class]) {
+  border: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.md-typeset table:not([class]) th {
+  background-color: rgba(139, 92, 246, 0.1);
+}
+
+/* Admonitions */
+.md-typeset .admonition.tip,
+.md-typeset details.tip {
+  border-color: #8B5CF6;
+}
+
+.md-typeset .tip > .admonition-title,
+.md-typeset .tip > summary {
+  background-color: rgba(139, 92, 246, 0.1);
+}
+
+/* Navigation */
+.md-tabs__link--active {
+  border-bottom-color: #8B5CF6;
+}
+
+/* Cards grid */
+.grid.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.grid.cards > * {
+  padding: 1rem;
+  background: rgba(139, 92, 246, 0.05);
+  border-radius: 8px;
+  border: 1px solid rgba(139, 92, 246, 0.1);
+}
+
+[data-md-color-scheme="slate"] .grid.cards > * {
+  background: rgba(139, 92, 246, 0.08);
+}
+
+/* Emoji sizing */
+.md-typeset .twemoji {
+  vertical-align: middle;
+}
+
+/* Copy button tweaks */
+.md-clipboard:hover {
+  color: #8B5CF6;
+}
+
+/* Search highlight */
+.md-search-result__article mark {
+  background-color: rgba(139, 92, 246, 0.3);
+}
+
+/* API reference tables */
+.md-typeset table td:first-child code {
+  white-space: nowrap;
+}
+
+/* Header/nav background to match Arthur DEX */
+[data-md-color-scheme="slate"] .md-header {
+  background-color: #0d0b1e;
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+  background-color: #0d0b1e;
+}

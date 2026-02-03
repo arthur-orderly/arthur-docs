@@ -1,0 +1,93 @@
+site_name: Arthur SDK
+site_description: Simple trading for AI agents on Arthur DEX
+site_url: https://arthurdex.com/docs
+repo_url: https://github.com/arthur-orderly/arthur-sdk
+repo_name: arthur-sdk
+
+theme:
+  name: material
+  custom_dir: overrides
+  palette:
+    - scheme: slate
+      primary: custom
+      accent: deep purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+    - scheme: default
+      primary: custom
+      accent: deep purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+  font:
+    text: Inter
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.code.annotate
+  icon:
+    logo: material/robot
+    repo: fontawesome/brands/github
+  favicon: assets/favicon.png
+
+extra_css:
+  - stylesheets/extra.css
+
+plugins:
+  - search
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Home: index.md
+  - Getting Started:
+    - Quickstart: quickstart.md
+    - Credentials: credentials.md
+  - API Reference:
+    - Arthur Client: api/client.md
+    - Strategy Runner: api/strategies.md
+    - Market Maker: api/market-maker.md
+  - Examples:
+    - Basic Trading: examples/basic.md
+    - Strategies: examples/strategies.md
+    - Market Making: examples/market-making.md
+  - CLI Reference: cli.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/arthurdex
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/orderly
+    - icon: fontawesome/brands/github
+      link: https://github.com/arthur-orderly
+  generator: false
+
+copyright: Copyright &copy; 2024-2026 Arthur DEX — Built on Orderly Network
