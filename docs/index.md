@@ -136,30 +136,6 @@ Use short symbols (`ETH`) or full symbols (`PERP_ETH_USDC`) — the SDK handles 
 
 ---
 
-## Who's Using Arthur?
-
-<div class="grid cards" markdown>
-
--   :robot: **Trading Bots**
-    
-    Automated strategies running 24/7 on Arthur DEX
-
--   :brain: **AI Agents**
-    
-    LangChain, AutoGPT, and CrewAI integrations
-
--   :chart_with_upwards_trend: **Market Makers**
-    
-    Providing liquidity and earning rebates
-
--   :moneybag: **DeFi Protocols**
-    
-    Protocol treasuries executing trades programmatically
-
-</div>
-
----
-
 ## Links
 
 - **Arthur DEX**: [https://arthurdex.com](https://arthurdex.com)
