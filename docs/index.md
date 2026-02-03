@@ -38,14 +38,6 @@ Built on [Orderly Network](https://orderly.network) — the same infrastructure 
 
 Market orders, limit orders, positions, strategies, market making — everything you need in one package.
 
-### 🌐 Omnichain Deposits & Withdrawals
-
-Deposit from any chain, withdraw to any chain. Powered by Orderly's cross-chain infrastructure — no bridges, no hassle.
-
-### 💎 Multi-Collateral Support
-
-Trade with USDC from Arbitrum, Optimism, Base, Polygon, and more. Your collateral works across all supported chains.
-
 ---
 
 ## Quick Install
