@@ -494,7 +494,7 @@ Before running live:
 
 ## Fee Economics
 
-On Arthur DEX (via Orderly Network):
+On Arthur DEX (via Orderly):
 
 | Role | Fee |
 |------|-----|

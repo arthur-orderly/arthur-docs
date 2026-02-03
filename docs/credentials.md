@@ -55,7 +55,7 @@ Your Account ID is shown in:
 
 ---
 
-## Option 2: Orderly Network Direct
+## Option 2: Orderly Direct
 
 For advanced users who want direct access.
 

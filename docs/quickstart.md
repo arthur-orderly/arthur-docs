@@ -31,7 +31,7 @@ You'll need three things from Arthur DEX:
     4. Create a new API key
     5. Copy the credentials
 
-=== "From Orderly Network"
+=== "From Orderly"
 
     1. Go to [orderly.network](https://orderly.network)
     2. Connect your wallet

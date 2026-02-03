@@ -407,7 +407,7 @@ while True:
 
 ## Fees & Economics
 
-Market makers on Arthur DEX (via Orderly Network) enjoy:
+Market makers on Arthur DEX (via Orderly) enjoy:
 
 - **Negative maker fees**: Get rebates for providing liquidity
 - **Earn the spread**: Capture bid-ask when orders fill

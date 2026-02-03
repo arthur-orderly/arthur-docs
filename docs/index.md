@@ -32,7 +32,7 @@ Install with pip, load credentials from a file, start trading. Go from zero to l
 
 ### 🛡️ Battle-Tested
 
-Built on [Orderly Network](https://orderly.network) — the same infrastructure powering billions in trading volume across DeFi.
+Built on [Orderly](https://orderly.network) — the same infrastructure powering billions in trading volume across DeFi.
 
 ### 📊 Full Featured
 
@@ -115,7 +115,7 @@ pip install arthur-sdk
 
 ## Supported Markets
 
-Trade any perpetual market on Orderly Network:
+Trade any perpetual market on Orderly:
 
 | Symbol | Market |
 |--------|--------|
@@ -130,7 +130,7 @@ Trade any perpetual market on Orderly Network:
 | `SUI` | Sui |
 | `TIA` | Celestia |
 | `WOO` | WOO Network |
-| `ORDER` | Orderly Network |
+| `ORDER` | Orderly |
 
 Use short symbols (`ETH`) or full symbols (`PERP_ETH_USDC`) — the SDK handles both.
 
@@ -139,7 +139,7 @@ Use short symbols (`ETH`) or full symbols (`PERP_ETH_USDC`) — the SDK handles 
 ## Links
 
 - **Arthur DEX**: [https://arthurdex.com](https://arthurdex.com)
-- **Orderly Network**: [https://orderly.network](https://orderly.network)
+- **Orderly**: [https://orderly.network](https://orderly.network)
 - **GitHub**: [https://github.com/arthur-orderly](https://github.com/arthur-orderly)
 - **PyPI**: [https://pypi.org/project/arthur-sdk/](https://pypi.org/project/arthur-sdk/)
 
