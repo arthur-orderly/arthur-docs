@@ -5,20 +5,12 @@
 {% endblock %}
 
 {% block header %}
-<header class="md-header" data-md-component="header" style="height: 64px;">
-  <nav class="md-header__inner md-grid" aria-label="Header" style="height: 64px; padding: 0 24px;">
-    <a href="https://agents.arthurdex.com" title="Arthur" class="md-header__button md-logo" aria-label="Arthur" data-md-component="logo" style="margin-right: 8px;">
-      <span style="font-size: 1.5rem;">🦊</span>
+<header class="md-header" data-md-component="header" style="height: 64px; border-bottom: 1px solid #222;">
+  <nav class="md-header__inner md-grid" aria-label="Header" style="height: 64px; padding: 0 24px; max-width: 1200px; margin: 0 auto;">
+    <a href="https://agents.arthurdex.com" title="Arthur" class="md-header__button md-logo" aria-label="Arthur" data-md-component="logo" style="display: flex; align-items: center; gap: 10px; text-decoration: none;">
+      <img src="https://arthurdex.com/logo.webp" alt="Arthur" style="height: 32px; width: auto;">
+      <span style="color: #fff; font-weight: 700; font-size: 1.25rem;">Arthur</span>
     </a>
-    <div class="md-header__title" data-md-component="header-title" style="flex-shrink: 0;">
-      <div class="md-header__ellipsis">
-        <div class="md-header__topic">
-          <span class="md-ellipsis">
-            <a href="https://agents.arthurdex.com" style="color: inherit; text-decoration: none; font-weight: 700; font-size: 1.25rem;">Arthur</a>
-          </span>
-        </div>
-      </div>
-    </div>
     
     <!-- Custom nav links - matching agent-landing style -->
     <nav class="md-header__nav" style="display: flex; align-items: center; gap: 2rem; margin-left: auto; margin-right: 1rem;">
