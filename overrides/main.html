@@ -3,3 +3,37 @@
 {% block announce %}
   🦊 Arthur SDK is now available on PyPI! <code>pip install arthur-sdk</code>
 {% endblock %}
+
+{% block header %}
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="https://agents.arthurdex.com" title="Arthur" class="md-header__button md-logo" aria-label="Arthur" data-md-component="logo">
+      <span style="font-size: 1.5rem;">🦊</span>
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      {% include ".icons/material/menu.svg" %}
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            <a href="https://agents.arthurdex.com" style="color: inherit; text-decoration: none; font-weight: 700;">Arthur</a>
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Custom nav links -->
+    <nav class="md-header__nav" style="display: flex; align-items: center; gap: 1.5rem; margin-left: auto; margin-right: 1rem;">
+      <a href="https://agents.arthurdex.com" style="color: var(--md-default-fg-color--light); text-decoration: none; font-weight: 500;">Home</a>
+      <a href="https://docs.arthurdex.com" style="color: var(--md-primary-fg-color); text-decoration: none; font-weight: 500;">Docs</a>
+      <a href="https://github.com/arthur-orderly/agent-trading-sdk" style="color: var(--md-default-fg-color--light); text-decoration: none; font-weight: 500;">GitHub</a>
+      <a href="https://arthurdex.com" style="background: #8B5CF6; color: white; padding: 0.5rem 1rem; border-radius: 6px; text-decoration: none; font-weight: 600;">Trade →</a>
+    </nav>
+    
+    <div class="md-header__source">
+      {% include "partials/source.html" %}
+    </div>
+  </nav>
+</header>
+{% endblock %}

@@ -81,9 +81,10 @@ nav:
   - CLI Reference: cli.md
 
 extra:
+  homepage: https://agents.arthurdex.com
   social:
     - icon: fontawesome/brands/twitter
-      link: https://twitter.com/arthurdex
+      link: https://twitter.com/Arthur_Orderly
     - icon: fontawesome/brands/discord
       link: https://discord.gg/orderly
     - icon: fontawesome/brands/github
