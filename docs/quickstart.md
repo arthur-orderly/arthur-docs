@@ -25,18 +25,28 @@ You'll need three things from Arthur DEX:
 
 === "From Arthur DEX"
 
-    1. Go to [arthurdex.com](https://arthurdex.com)
-    2. Connect your wallet
-    3. Navigate to **Settings → API Keys**
-    4. Create a new API key
-    5. Copy the credentials
+    1. Go to [arthurdex.com](https://arthurdex.com) and connect your wallet
+    2. Make a deposit (USDC) to start trading
+    3. Generate API keys using the SDK's built-in helper:
+    
+    ```python
+    from arthur_sdk import Arthur
+    
+    # Generate new API key (requires wallet signature)
+    Arthur.generate_api_key(
+        wallet_address="0x...",
+        private_key="your_private_key"
+    )
+    ```
+    
+    4. Save the returned credentials to a JSON file
 
 === "From Orderly"
 
     1. Go to [orderly.network](https://orderly.network)
     2. Connect your wallet
-    3. Create API keys with trading permissions
-    4. Note: Use `broker_id: arthur_dex` for fee sharing
+    3. Create API keys with trading permissions (ed25519)
+    4. Note: Use `broker_id: arthur` for fee sharing
 
 See [Credentials Guide](credentials.md) for detailed instructions.
 
@@ -219,4 +229,4 @@ if __name__ == "__main__":
 
 - **Discord**: [Join our community](https://discord.gg/orderly)
 - **Twitter**: [@arthurdex](https://twitter.com/arthurdex)
-- **GitHub Issues**: [Report bugs](https://github.com/arthur-orderly/arthur-sdk/issues)
+- **GitHub Issues**: [Report bugs](https://github.com/arthur-orderly/agent-trading-sdk/issues)

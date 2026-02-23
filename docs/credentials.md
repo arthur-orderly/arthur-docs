@@ -33,25 +33,32 @@ The easiest way to get credentials.
 2. Deposit USDC to your trading account
 3. Wait for confirmation (usually < 1 minute)
 
-### Step 3: Create API Keys
+### Step 3: Generate API Keys
 
-1. Go to **Settings → API Keys**
-2. Click **Create API Key**
-3. Give it a descriptive name (e.g., "My Trading Bot")
-4. Select permissions:
-    - ✅ **Read** - View positions, orders, balance
-    - ✅ **Trade** - Place and cancel orders
-    - ❌ **Withdraw** - Not needed for trading
-5. Click **Create**
-6. **Important**: Copy both the API Key AND Secret Key immediately
-7. The secret key is only shown once!
+Generate API keys using the SDK's built-in helper:
+
+```python
+from arthur_sdk import Arthur
+
+# Generate new API key (requires wallet signature)
+result = Arthur.generate_api_key(
+    wallet_address="0x...",
+    private_key="your_private_key"
+)
+
+print(f"API Key: {result['api_key']}")
+print(f"Secret: {result['secret_key']}")
+print(f"Account ID: {result['account_id']}")
+```
+
+Or use the Orderly API directly to create ed25519 keys.
+
+!!! warning "Save Immediately"
+    Copy both the API Key AND Secret Key immediately. The secret key is only shown once!
 
 ### Step 4: Get Account ID
 
-Your Account ID is shown in:
-
-- **Settings → Account Info**
-- Or in the URL: `arthurdex.com/portfolio/0x...`
+Your Account ID is returned by the key generation step above, or shown in the URL: `arthurdex.com/portfolio/0x...`
 
 ---
 

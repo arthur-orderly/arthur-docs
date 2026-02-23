@@ -1,8 +1,8 @@
 site_name: Arthur SDK
 site_description: Simple trading for AI agents on Arthur DEX
-site_url: https://arthurdex.com/docs
-repo_url: https://github.com/arthur-orderly/arthur-sdk
-repo_name: arthur-sdk
+site_url: https://docs.arthurdex.com
+repo_url: https://github.com/arthur-orderly/agent-trading-sdk
+repo_name: agent-trading-sdk
 
 theme:
   name: material
